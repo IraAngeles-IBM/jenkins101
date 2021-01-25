@@ -60,7 +60,7 @@ spec:
           value: "32110"
         - name: "PROJECT"
           value: "springclient-ns"' > spring-client-pipeline.yaml 
-    ```
+```
 
 1. A BuildConfig or build configuration describes a build definition and triggers for when a new build should be created. The Pipeline build strategy allows you to define a Jenkins pipeline for execution by the `Jenkins pipeline plugin`. 
 
