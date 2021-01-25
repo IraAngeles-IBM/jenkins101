@@ -40,7 +40,7 @@ This lab creates an OpenShift Pipeline to build the `springclient` application i
 
 1. Create the BuildConfig declaration file using a Jenkins pipeline strategy, use your own forked repo instead of the one listed in the `spec.source.git.uri` attribute here, and set the `spec.strategy.jenkinsPipelineStrategy.env` environment vairables to match your cluster's LOGIN_URL and LOGIN_PORT found via the `Copy Login Command`,
 
-    ```
+```
 echo 'kind: "BuildConfig"
 apiVersion: "v1"metadata:
   name: "spring-client-pipeline"
